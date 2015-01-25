@@ -296,7 +296,7 @@ fBodyBodyGyroJerkMag-mean()
 
 fBodyBodyGyroJerkMag-std()
 
-The 'signal' is the measurement from the original study.  The values are normalized and bounded within [-1,1]
+The 'mean(signal)' is the average of the signal measurements from the original study for that subject, activity and sensor variable.  The original values are normalized and bounded within [-1,1]
 
 ##Attribution
 ####Source study: Human Activity Recognition Using Smartphones Dataset study
