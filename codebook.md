@@ -313,10 +313,10 @@ This dataset is distributed AS-IS and no responsibility implied or explicit can 
 Jorge L. Reyes-Ortiz, Alessandro Ghio, Luca Oneto, Davide Anguita. November 2012.
 
 ####Johns Hopkins Bloomberg School of Public Health
-Provided the Getting and Cleaning Data course on Coursera.org
+Provided the Getting and Cleaning Data course, and its prerequisite courses, on Coursera.org
 
 ####Coursera.org
-Hosted the Getting and Cleaning Data course provided by Johns Hopkins Bloomberg School of Public Health
+Hosted the Getting and Cleaning Data course, and its prerequisite courses, provided by Johns Hopkins Bloomberg School of Public Health
 
 ####David Hood, Community TA
 Specific post on the course forum for Getting and Cleaning Data 
