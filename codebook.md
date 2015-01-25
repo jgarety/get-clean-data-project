@@ -197,12 +197,22 @@ tGravityAccMag-mean()
 tGravityAccMag-std()
 tBodyAccJerkMag-mean() 
 tBodyAccJerkMag-std() 
-tBodyGyroMag-mean() (dbl),
-  tBodyGyroMag-std() (dbl), tBodyGyroJerkMag-mean() (dbl), tBodyGyroJerkMag-std() (dbl),
-  fBodyAcc-mean()-X (dbl), fBodyAcc-mean()-Y (dbl), fBodyAcc-mean()-Z (dbl), fBodyAcc-std()-X (dbl),
-  fBodyAcc-std()-Y (dbl), fBodyAcc-std()-Z (dbl), fBodyAccJerk-mean()-X (dbl), fBodyAccJerk-mean()-Y
-  (dbl), fBodyAccJerk-mean()-Z (dbl), fBodyAccJerk-std()-X (dbl), fBodyAccJerk-std()-Y (dbl),
-  fBodyAccJerk-std()-Z (dbl), fBodyGyro-mean()-X (dbl), fBodyGyro-mean()-Y (dbl), fBodyGyro-mean()-Z
+tBodyGyroMag-mean() 
+tBodyGyroMag-std() 
+tBodyGyroJerkMag-mean() 
+tBodyGyroJerkMag-std() 
+fBodyAcc-mean()-X 
+fBodyAcc-mean()-Y 
+fBodyAcc-mean()-Z 
+fBodyAcc-std()-X 
+fBodyAcc-std()-Y 
+fBodyAcc-std()-Z 
+fBodyAccJerk-mean()-X 
+fBodyAccJerk-mean()-Y
+fBodyAccJerk-mean()-Z 
+fBodyAccJerk-std()-X 
+fBodyAccJerk-std()-Y 
+fBodyAccJerk-std()-Z (dbl), fBodyGyro-mean()-X (dbl), fBodyGyro-mean()-Y (dbl), fBodyGyro-mean()-Z
   (dbl), fBodyGyro-std()-X (dbl), fBodyGyro-std()-Y (dbl), fBodyGyro-std()-Z (dbl), fBodyAccMag-mean()
   (dbl), fBodyAccMag-std() (dbl), fBodyBodyAccJerkMag-mean() (dbl), fBodyBodyAccJerkMag-std() (dbl),
   fBodyBodyGyroMag-mean() (dbl), fBodyBodyGyroMag-std() (dbl), fBodyBodyGyroJerkMag-mean() (dbl),
