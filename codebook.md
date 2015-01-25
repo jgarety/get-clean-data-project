@@ -129,20 +129,68 @@ The 'sensor' indicates the feature measured.  From the Human Activity Recognitio
 >tBodyAccJerkMag
 >
 >tBodyGyroMag
->>tBodyGyroJerkMag
+>
+>tBodyGyroJerkMag
+>
 >fBodyAcc-XYZ
+>
 >fBodyAccJerk-XYZ
+>
 >fBodyGyro-XYZ
+>
 >fBodyAccMag
+>
 >fBodyAccJerkMag
+>
 >fBodyGyroMag
+>
 >fBodyGyroJerkMag
 >
 >The set of variables that were estimated from these signals are: 
 >
 >mean(): Mean value
+>
 >std(): Standard deviation
+>
 >.
+>
 >.
+>
 >.
+>
 >The complete list of variables of each feature vector is available in 'features.txt'
+
+The specific list used for this project:
+tBodyAcc-mean()-X 
+tBodyAcc-mean()-Y 
+tBodyAcc-mean()-Z 
+tBodyAcc-std()-X 
+tBodyAcc-std()-Y 
+tBodyAcc-std()-Z 
+tGravityAcc-mean()-X 
+tGravityAcc-mean()-Y 
+tGravityAcc-mean()-Z 
+tGravityAcc-std()-X 
+tGravityAcc-std()-Y 
+tGravityAcc-std()-Z 
+tBodyAccJerk-mean()-X 
+tBodyAccJerk-mean()-Y 
+tBodyAccJerk-mean()-Z 
+tBodyAccJerk-std()-X 
+tBodyAccJerk-std()-Y (dbl), tBodyAccJerk-std()-Z (dbl), tBodyGyro-mean()-X (dbl), tBodyGyro-mean()-Y
+  (dbl), tBodyGyro-mean()-Z (dbl), tBodyGyro-std()-X (dbl), tBodyGyro-std()-Y (dbl), tBodyGyro-std()-Z
+  (dbl), tBodyGyroJerk-mean()-X (dbl), tBodyGyroJerk-mean()-Y (dbl), tBodyGyroJerk-mean()-Z (dbl),
+  tBodyGyroJerk-std()-X (dbl), tBodyGyroJerk-std()-Y (dbl), tBodyGyroJerk-std()-Z (dbl),
+  tBodyAccMag-mean() (dbl), tBodyAccMag-std() (dbl), tGravityAccMag-mean() (dbl), tGravityAccMag-std()
+  (dbl), tBodyAccJerkMag-mean() (dbl), tBodyAccJerkMag-std() (dbl), tBodyGyroMag-mean() (dbl),
+  tBodyGyroMag-std() (dbl), tBodyGyroJerkMag-mean() (dbl), tBodyGyroJerkMag-std() (dbl),
+  fBodyAcc-mean()-X (dbl), fBodyAcc-mean()-Y (dbl), fBodyAcc-mean()-Z (dbl), fBodyAcc-std()-X (dbl),
+  fBodyAcc-std()-Y (dbl), fBodyAcc-std()-Z (dbl), fBodyAccJerk-mean()-X (dbl), fBodyAccJerk-mean()-Y
+  (dbl), fBodyAccJerk-mean()-Z (dbl), fBodyAccJerk-std()-X (dbl), fBodyAccJerk-std()-Y (dbl),
+  fBodyAccJerk-std()-Z (dbl), fBodyGyro-mean()-X (dbl), fBodyGyro-mean()-Y (dbl), fBodyGyro-mean()-Z
+  (dbl), fBodyGyro-std()-X (dbl), fBodyGyro-std()-Y (dbl), fBodyGyro-std()-Z (dbl), fBodyAccMag-mean()
+  (dbl), fBodyAccMag-std() (dbl), fBodyBodyAccJerkMag-mean() (dbl), fBodyBodyAccJerkMag-std() (dbl),
+  fBodyBodyGyroMag-mean() (dbl), fBodyBodyGyroMag-std() (dbl), fBodyBodyGyroJerkMag-mean() (dbl),
+  fBodyBodyGyroJerkMag-std()
+
+The 'signal' is the measurement from the original study.  The values are normalized and bounded within [-1,1]
