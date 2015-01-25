@@ -79,6 +79,8 @@ The output from the above study is used as the input to this project.  The test 
 ##Choices Made
 Files from the original experiment that are not needed for the final results were ignored.
 
+The restriction of sensor variables to mean and standard deviation only include variables with -mean( and -std( in their name to avoid picking up un-intended variables like meanFreq, gravityMean, etc.
+
 The handling of the input test and training data follows these steps:
 
 1. Assemble measurement data (X)
@@ -296,3 +298,27 @@ fBodyBodyGyroJerkMag-std()
 
 The 'signal' is the measurement from the original study.  The values are normalized and bounded within [-1,1]
 
+##Attribution
+####Source study: Human Activity Recognition Using Smartphones Dataset study
+Provided the source study on which this project is based
+
+License:
+========
+Use of this dataset in publications must be acknowledged by referencing the following publication [1] 
+
+[1] Davide Anguita, Alessandro Ghio, Luca Oneto, Xavier Parra and Jorge L. Reyes-Ortiz. Human Activity Recognition on Smartphones using a Multiclass Hardware-Friendly Support Vector Machine. International Workshop of Ambient Assisted Living (IWAAL 2012). Vitoria-Gasteiz, Spain. Dec 2012
+
+This dataset is distributed AS-IS and no responsibility implied or explicit can be addressed to the authors or their institutions for its use or misuse. Any commercial use is prohibited.
+
+Jorge L. Reyes-Ortiz, Alessandro Ghio, Luca Oneto, Davide Anguita. November 2012.
+
+####Johns Hopkins Bloomberg School of Public Health
+Provided the Getting and Cleaning Data course on Coursera.org
+
+####Coursera.org
+Hosted the Getting and Cleaning Data course provided by Johns Hopkins Bloomberg School of Public Health
+
+####David Hood, Community TA
+Specific post on the course forum for Getting and Cleaning Data 
+link: https://class.coursera.org/getdata-010/forum/thread?thread_id=49
+Provided a FAQ post that provided much needed focus for the project.
