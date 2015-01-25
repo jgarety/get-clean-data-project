@@ -76,3 +76,73 @@ This course project is to take the results from the Human Activity Recognition U
 
 The output from the above study is used as the input to this project.  The test and training data sets will be assembled to a single data set, the sensor variable measurements will be limited to only the mean and standard deviation variables and the averages for each sensor variable for each activity for each subject will be provided.
 
+##Choices Made
+Files from the original experiment that are not needed for the final results were ignored.
+
+The handling of the input test and training data follows these steps:
+
+1. Assemble measurement data (X)
+2. Add feature names to the columns of X
+3. Add the subject column to X
+4. Add the activity column to X
+5. Restrict X to only mean and standard deviation sensor variables, along with subject and activity information
+6. Replace activity with human-readable values
+7. Gather the sensor columns with their signal values in to the sensor and signal columns
+8. Group by subject, activity and sensor variable
+9. Calculate the average signal values for each group
+ 
+##Code Book
+The results of this project contain 4 variables.  
+
+The 'subject' is the subject id from the source experiment.  Its values range from 1 to 30, with each value representing one individual subject in the experiment.
+
+The 'activity' indicates the specific activity of the subject when the measurements were taken.  The values are WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING and LAYING.  The meaning of the activity is consistent with the label.
+
+The 'sensor' indicates the feature measured.  From the Human Activity Recognition Using Smartphones Dataset study:
+
+>Feature Selection 
+>=================
+>
+>The features selected for this database come from the accelerometer and gyroscope 3-axial raw signals tAcc-XYZ and tGyro-XYZ. These time domain signals (prefix 't' to denote time) were captured at a constant rate of 50 Hz. Then they were filtered using a median filter and a 3rd order low pass Butterworth filter with a corner frequency of 20 Hz to remove noise. Similarly, the acceleration signal was then separated into body and gravity acceleration signals (tBodyAcc-XYZ and tGravityAcc-XYZ) using another low pass Butterworth filter with a corner frequency of 0.3 Hz. 
+>
+>Subsequently, the body linear acceleration and angular velocity were derived in time to obtain Jerk signals (tBodyAccJerk-XYZ and tBodyGyroJerk-XYZ). Also the magnitude of these three-dimensional signals were calculated using the Euclidean norm (tBodyAccMag, tGravityAccMag, tBodyAccJerkMag, tBodyGyroMag, tBodyGyroJerkMag). 
+
+>Finally a Fast Fourier Transform (FFT) was applied to some of these signals producing fBodyAcc-XYZ, fBodyAccJerk-XYZ, fBodyGyro-XYZ, fBodyAccJerkMag, fBodyGyroMag, fBodyGyroJerkMag. (Note the 'f' to indicate frequency domain signals). 
+>
+>These signals were used to estimate variables of the feature vector for each pattern:  
+>'-XYZ' is used to denote 3-axial signals in the X, Y and Z directions.
+>
+>tBodyAcc-XYZ
+>
+>tGravityAcc-XYZ
+>
+>tBodyAccJerk-XYZ
+>
+>tBodyGyro-XYZ
+>
+>tBodyGyroJerk-XYZ
+>
+>tBodyAccMag
+>
+>tGravityAccMag
+>
+>tBodyAccJerkMag
+>
+>tBodyGyroMag
+>>tBodyGyroJerkMag
+>fBodyAcc-XYZ
+>fBodyAccJerk-XYZ
+>fBodyGyro-XYZ
+>fBodyAccMag
+>fBodyAccJerkMag
+>fBodyGyroMag
+>fBodyGyroJerkMag
+>
+>The set of variables that were estimated from these signals are: 
+>
+>mean(): Mean value
+>std(): Standard deviation
+>.
+>.
+>.
+>The complete list of variables of each feature vector is available in 'features.txt'
