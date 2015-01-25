@@ -1,6 +1,6 @@
 #Code Book
 
-##Experimental Study
+##Study Design
 This course project is to take the results from the Human Activity Recognition Using Smartphones Dataset experiments and provide the averages for mean and standard deviation for each sensor variable for each activity for each subject. From the Human Activity Recognition Using Smartphones Dataset study:
 
 >==================================================================
