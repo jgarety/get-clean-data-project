@@ -320,5 +320,7 @@ Hosted the Getting and Cleaning Data course provided by Johns Hopkins Bloomberg 
 
 ####David Hood, Community TA
 Specific post on the course forum for Getting and Cleaning Data 
+
 link: https://class.coursera.org/getdata-010/forum/thread?thread_id=49
+
 Provided a FAQ post that provided much needed focus for the project.
