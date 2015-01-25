@@ -212,10 +212,18 @@ fBodyAccJerk-mean()-Y
 fBodyAccJerk-mean()-Z 
 fBodyAccJerk-std()-X 
 fBodyAccJerk-std()-Y 
-fBodyAccJerk-std()-Z (dbl), fBodyGyro-mean()-X (dbl), fBodyGyro-mean()-Y (dbl), fBodyGyro-mean()-Z
-  (dbl), fBodyGyro-std()-X (dbl), fBodyGyro-std()-Y (dbl), fBodyGyro-std()-Z (dbl), fBodyAccMag-mean()
-  (dbl), fBodyAccMag-std() (dbl), fBodyBodyAccJerkMag-mean() (dbl), fBodyBodyAccJerkMag-std() (dbl),
-  fBodyBodyGyroMag-mean() (dbl), fBodyBodyGyroMag-std() (dbl), fBodyBodyGyroJerkMag-mean() (dbl),
+fBodyAccJerk-std()-Z 
+fBodyGyro-mean()-X 
+fBodyGyro-mean()-Y 
+fBodyGyro-mean()-Z
+fBodyGyro-std()-X 
+fBodyGyro-std()-Y
+fBodyGyro-std()-Z 
+fBodyAccMag-mean()
+fBodyAccMag-std() 
+fBodyBodyAccJerkMag-mean() 
+fBodyBodyAccJerkMag-std() 
+fBodyBodyGyroMag-mean() (dbl), fBodyBodyGyroMag-std() (dbl), fBodyBodyGyroJerkMag-mean() (dbl),
   fBodyBodyGyroJerkMag-std()
 
 The 'signal' is the measurement from the original study.  The values are normalized and bounded within [-1,1]
